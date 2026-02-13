@@ -64,4 +64,3 @@ conda create -n finlang python=3.11 -y
 conda activate finlang
 pip install -r requirements.txt
 
-
