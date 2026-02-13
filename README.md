@@ -57,3 +57,11 @@ Create a compact feature set: pre earnings momentum, pre earnings realized vol, 
 Start with a simple model, e.g., logistic regression for direction or ridge regression for returns. Use a time split, not random split. Report accuracy and a basic confusion matrix or error stats.
 6. Deliverables checklist
 Notebook with plots, a .py module with functions, and a short written summary describing what worked, what failed, and what you would improve next.
+
+
+## env 
+conda create -n finlang python=3.11 -y
+conda activate finlang
+pip install -r requirements.txt
+
+
